@@ -2,7 +2,6 @@ pipeline {
     agent {
         label 'slave2'
     }
-
     stages {
         stage('Git') {
             steps {
